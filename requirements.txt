@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+pandas
+numpy
+regex
+spacy
+transformers
+torch
+joblib
+
+
