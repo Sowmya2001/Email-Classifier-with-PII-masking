@@ -85,4 +85,6 @@ Gradio Interface  ![Screenshot 2025-04-23 112929](https://github.com/user-attach
  
 
 
-Report Document  [Email_Classifier_Project_Report.docx](https://github.com/user-attachments/files/19863197/Email_Classifier_Project_Report.docx)
+# Report Document  
+
+[Email_Classifier_Project_Report.docx](https://github.com/user-attachments/files/19863197/Email_Classifier_Project_Report.docx)
