@@ -67,6 +67,8 @@ Navigate to http://127.0.0.1:8000/docs to access the Swagger UI.
 
 Swagger UI api post method url : http://127.0.0.1:8000/classify_email/ (This link is just used to know the url of our api endpoint in Swagger UI page after test the post method)
 
+# Hugging Face Space Deployment
+
 Main Hugging Face Url : https://huggingface.co/spaces/Sowmya-19/email-classifier-api/tree/main
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
