@@ -75,7 +75,8 @@ check out the Gradio interface url :  https://sowmya-19-email-classifier-api.hf.
 
 To test the Postman api post method url : http://127.0.0.1:8000/api/classify (Paste this url in Postman website(Download the postman desktop agent through website: https://web.postman.co/workspace/c360a277-8cfc-4d3a-8e82-a5310b60bf00/request/create?requestId=cb8e8ebf-782d-485a-9f21-a82cbc4c4c42) by selecting post method and give the raw data under body by selecting the JSON in dropdown).
 
-Postman API  ![Screenshot 2025-04-23 121246](https://github.com/user-attachments/assets/48056444-8906-4bcc-b498-b11afa79f469)  Postman API
+Postman API  ![Screenshot 2025-04-23 121246](https://github.com/user-attachments/assets/48056444-8906-4bcc-b498-b11afa79f469) 
 
-Gradio Interface  ![Screenshot 2025-04-23 112929](https://github.com/user-attachments/assets/0231b752-a0d6-480d-bddc-defdb3781958)  Gradio Interface
+Gradio Interface  ![Screenshot 2025-04-23 112929](https://github.com/user-attachments/assets/0231b752-a0d6-480d-bddc-defdb3781958)  
+
 Swagger API  ![Screenshot 2025-04-23 122109](https://github.com/user-attachments/assets/6f854023-2f88-4ae8-b355-ab9648c5c971)
