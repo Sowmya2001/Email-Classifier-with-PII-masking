@@ -36,13 +36,21 @@ A FastAPI-based project that classifies emails into categories and masks Persona
 ## 📂 Project Structure
 
 ├── api.py # FastAPI application with endpoints 
+
 ├── models.py # ML model loading & classification 
+
 ├── utils.py # PII masking and helper functions 
+
 ├── data_explore.py # Data cleaning and preparation 
+
 ├── vectorizer.joblib/
+
 ├── model.joblib/
+
 ├── email_classifier_model.joblib/# Trained models (tracked via Git LFS) 
+
 ├── emails.csv # Sample dataset (LFS tracked) 
+
 ├── README.md # This file
 
 ---
