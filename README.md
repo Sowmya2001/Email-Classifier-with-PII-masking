@@ -77,7 +77,10 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 check out the Gradio interface url :  https://sowmya-19-email-classifier-api.hf.space/
 
-To test the Postman api post method url : http://127.0.0.1:8000/api/classify (Paste this url in Postman website(Download the postman desktop agent through website: https://web.postman.co/workspace/c360a277-8cfc-4d3a-8e82-a5310b60bf00/request/create?requestId=cb8e8ebf-782d-485a-9f21-a82cbc4c4c42) by selecting post method and give the raw data under body by selecting the JSON in dropdown).
+To test the Postman api post method url : via Local run like VS Code = http://127.0.0.1:8000/api/classify (Paste this url in Postman website(Download the postman desktop agent through website: https://web.postman.co/workspace/c360a277-8cfc-4d3a-8e82-a5310b60bf00/request/create?requestId=cb8e8ebf-782d-485a-9f21-a82cbc4c4c42) by selecting post method and give the raw data under body by selecting the JSON in dropdown) 
+
+To test API in Postman with Hugging face url = https://Sowmya-19-email-classifier-api.hf.space/api/classify 
+
 
 Postman API  ![Screenshot 2025-04-23 121246](https://github.com/user-attachments/assets/48056444-8906-4bcc-b498-b11afa79f469) 
 
@@ -87,4 +90,5 @@ Gradio Interface  ![Screenshot 2025-04-23 112929](https://github.com/user-attach
 
 # Report Document  
 
-[Email_Classifier_Project_Report.docx](https://github.com/user-attachments/files/19863197/Email_Classifier_Project_Report.docx)
+[Email_Classifier_Project_Report (1).docx](https://github.com/user-attachments/files/19865349/Email_Classifier_Project_Report.1.docx)
+
