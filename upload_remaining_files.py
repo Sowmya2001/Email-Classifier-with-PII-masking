@@ -3,14 +3,14 @@ from huggingface_hub import upload_file
 repo_id = "Sowmya-19/email-classifier-api"
 
 files_to_upload = [
-    # ("models.py", "models.py"),
-    # ("utils.py", "utils.py"),
-    # ("data_explore.py", "data_explore.py"),
-    # ("train_model.py", "train_model.py"),
-    # ("api.py", "api.py")
-    # ("gradio_ui.py", "gradio_ui.py")
-    # ("install.sh", "install.sh")
-    # ("ner.py", "ner.py")
+    ("models.py", "models.py"),
+    ("utils.py", "utils.py"),
+    ("data_explore.py", "data_explore.py"),
+    ("train_model.py", "train_model.py"),
+    ("api.py", "api.py")
+    ("gradio_ui.py", "gradio_ui.py")
+    ("install.sh", "install.sh")
+    ("ner.py", "ner.py")
     (".env", ".env")
 ]
 
