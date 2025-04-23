@@ -64,11 +64,17 @@ uvicorn api:app --reload
 uvicorn app:app --reload
 ```
 Navigate to http://127.0.0.1:8000/docs to access the Swagger UI.
-check out the Swagger UI api post url : http://127.0.0.1:8000/classify_email/
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-check out the Gradio interface url :  https://sowmya-19-email-classifier-api.hf.space/
-check out the Postman api post url : http://127.0.0.1:8000/api/classify 
 
-![Screenshot 2025-04-23 121246](https://github.com/user-attachments/assets/48056444-8906-4bcc-b498-b11afa79f469)  Gradio Interface
-![Screenshot 2025-04-23 112929](https://github.com/user-attachments/assets/0231b752-a0d6-480d-bddc-defdb3781958)  Postman API
+# Swagger UI api post url : http://127.0.0.1:8000/classify_email/
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+check out the Gradio interface url :  https://sowmya-19-email-classifier-api.hf.space/
+
+#To test the Postman api post url : http://127.0.0.1:8000/api/classify 
+
+![Screenshot 2025-04-23 121246](https://github.com/user-attachments/assets/48056444-8906-4bcc-b498-b11afa79f469)  Postman API
+
+![Screenshot 2025-04-23 112929](https://github.com/user-attachments/assets/0231b752-a0d6-480d-bddc-defdb3781958)  Gradio Interface
+
 ![Screenshot 2025-04-23 122054](https://github.com/user-attachments/assets/a7826b7e-1199-41a3-9cab-970728200e41)  Swagger API
