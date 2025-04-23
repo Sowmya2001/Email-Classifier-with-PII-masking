@@ -23,11 +23,11 @@ X_train_vec = vectorizer.fit_transform(X_train)
 model = MultinomialNB()
 model.fit(X_train_vec, y_train)
 
-# Create directory to save models
-os.makedirs("saved_models", exist_ok=True)
+# # Create directory to save models
+# os.makedirs("saved_models", exist_ok=True)
 
 # Save vectorizer and model
-joblib.dump(vectorizer, "saved_models/vectorizer.joblib")
-joblib.dump(model, "saved_models/email_classifier_model.joblib")
+joblib.dump(vectorizer, "vectorizer.joblib")
+joblib.dump(model, "email_classifier_model.joblib")
 
-print("✅ Training complete! Files saved in 'saved_models/'")
+print("✅ Training complete! 'Files saved'")
