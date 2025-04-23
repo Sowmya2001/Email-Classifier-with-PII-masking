@@ -5,8 +5,8 @@ from utils import mask_pii
 import os
 
 # Load vectorizer and model
-vectorizer_path = "saved_models/vectorizer.joblib"
-model_path = "saved_models/model.joblib"
+vectorizer_path = "vectorizer.joblib"
+model_path = "model.joblib"
 
 if not os.path.exists(vectorizer_path) or not os.path.exists(model_path):
     raise FileNotFoundError("Model or vectorizer not found!")

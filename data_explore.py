@@ -29,10 +29,10 @@ pipeline = Pipeline([
 pipeline.fit(X_train, y_train)
 
 # Save vectorizer and model
-os.makedirs("saved_models", exist_ok=True)
-joblib.dump(pipeline.named_steps["tfidf"], "saved_models/vectorizer.joblib")
-joblib.dump(pipeline.named_steps["clf"], "saved_models/model.joblib")
+# os.makedirs("saved_models", exist_ok=True)
+joblib.dump(pipeline.named_steps["tfidf"], "vectorizer.joblib")
+joblib.dump(pipeline.named_steps["clf"], "model.joblib")
 
-print("✅ Vectorizer and model saved in 'saved_models/' folder.")
+print("✅ Vectorizer and model saved in Project/ folder.")
 
 
