@@ -67,6 +67,8 @@ Navigate to http://127.0.0.1:8000/docs to access the Swagger UI.
 
 Swagger UI api post method url : http://127.0.0.1:8000/classify_email/ (This link is just used to know the url of our api endpoint in Swagger UI page after test the post method)
 
+Swagger API  ![Screenshot 2025-04-23 122109](https://github.com/user-attachments/assets/6f854023-2f88-4ae8-b355-ab9648c5c971)
+
 # Hugging Face Space Deployment
 
 Main Hugging Face Url : https://huggingface.co/spaces/Sowmya-19/email-classifier-api/tree/main
@@ -82,6 +84,5 @@ Postman API  ![Screenshot 2025-04-23 121246](https://github.com/user-attachments
 Gradio Interface  ![Screenshot 2025-04-23 112929](https://github.com/user-attachments/assets/0231b752-a0d6-480d-bddc-defdb3781958) 
  
 
-Swagger API  ![Screenshot 2025-04-23 122109](https://github.com/user-attachments/assets/6f854023-2f88-4ae8-b355-ab9648c5c971)
 
 Report Document  [Email_Classifier_Project_Report.docx](https://github.com/user-attachments/files/19863197/Email_Classifier_Project_Report.docx)
