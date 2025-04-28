@@ -77,9 +77,17 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 check out the Gradio interface url :  https://sowmya-19-email-classifier-api.hf.space/
 
-To test the Postman api post method url : via Local run like VS Code = http://127.0.0.1:8000/api/classify (Paste this url in Postman website(Download the postman desktop agent through website: https://web.postman.co/workspace/c360a277-8cfc-4d3a-8e82-a5310b60bf00/request/create?requestId=cb8e8ebf-782d-485a-9f21-a82cbc4c4c42) by selecting post method and give the raw data under body by selecting the JSON in dropdown) 
+To test API in Postman with Hugging face url = https://Sowmya-19-email-classifier-api.hf.space/api/classify
 
-To test API in Postman with Hugging face url = https://Sowmya-19-email-classifier-api.hf.space/api/classify 
+(Paste the above url in Postman website(Download the postman desktop agent through website: https://web.postman.co/workspace/c360a277-8cfc-4d3a-8e82-a5310b60bf00/request/create?requestId=cb8e8ebf-782d-485a-9f21-a82cbc4c4c42) by selecting post method and give the raw data under body by selecting the JSON in dropdown) 
+
+Give input like :
+{
+  "email": "Hello John Doe,\n\nYour account number 123456789 has been updated. Please contact us at john.doe@example.com or call 555-123-4567 for further assistance.\n\nBest regards,\nCustomer Support"
+}
+
+
+ To test the Postman api post method url : via Local run like VS Code in my system = http://127.0.0.1:8000/api/classify 
 
 
 Postman API  ![Screenshot 2025-04-23 121246](https://github.com/user-attachments/assets/48056444-8906-4bcc-b498-b11afa79f469) 
