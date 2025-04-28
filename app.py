@@ -69,12 +69,12 @@ app = FastAPI()
 
 # API model for POST request
 class EmailRequest(BaseModel):
-    text: str
+    email: str
 
 # API endpoint
 @app.post("/api/classify")
 def classify_api(request: EmailRequest):
-    return classify_email(request.text)
+    return classify_email(request.email)
 
 # Mount Gradio at root
 app = mount_gradio_app(app, gr_interface, path="/")
