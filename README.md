@@ -83,7 +83,7 @@ To test API in Postman with Hugging face url = https://Sowmya-19-email-classifie
 
 Give input like :
 {
-  "email": "Hello John Doe,\n\nYour account number 123456789 has been updated. Please contact us at john.doe@example.com or call 555-123-4567 for further assistance.\n\nBest regards,\nCustomer Support"
+  "input_email_body": "Hello John Doe,\n\nYour account number 123456789 has been updated. Please contact us at john.doe@example.com or call 555-123-4567 for further assistance.\n\nBest regards,\nCustomer Support"
 }
 
 
